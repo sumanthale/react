@@ -1,9 +1,15 @@
+import Footer from "./layouts/Footer";
+import Header from "./layouts/Header";
 import ROUTES from "./routes";
 
 const App = () => {
   return (
     <>
-      <ROUTES />
+      <Header />
+      <main className="mt-24">
+        <ROUTES />
+      </main>
+      <Footer />
     </>
   );
 };
